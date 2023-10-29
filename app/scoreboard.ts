@@ -23,6 +23,7 @@ class Scoreboard {
         result.factor;
       output += "<h4>";
     }
+
     const scoresElement: HTMLElement = document.getElementById("scores")!;
     scoresElement.innerHTML = output;
   }
